@@ -7,3 +7,7 @@ vendor
 
 .DS_Store
 .vscode
+
+*.bak
+*.sql
+!data.sql
