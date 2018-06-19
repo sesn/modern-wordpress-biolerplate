@@ -1,0 +1,9 @@
+node_modules
+.data
+build
+wp-content
+vendor
+*.log
+
+.DS_Store
+.vscode

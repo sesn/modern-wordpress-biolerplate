@@ -1,0 +1,12 @@
+{
+    "name": "sankar/modern-wordpress-biolerplate",
+    "description": "modern theme and plugin setup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sesn",
+            "email": "sesankar11@gmail.com"
+        }
+    ],
+    "require": {}
+}

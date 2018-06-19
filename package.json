@@ -1,0 +1,12 @@
+{
+  "name": "modern-wordpress-biolerplate",
+  "version": "1.0.0",
+  "description": "\"wordpress development setup using webpack and docker to ease local development\"",
+  "main": "index.js",
+  "repository": "https://github.com/sesn/modern-wordpress-biolerplate.git",
+  "author": "sesn <sesankar11@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
