@@ -11,3 +11,8 @@ vendor
 *.bak
 *.sql
 !data.sql
+
+
+# In future, it
+Dockerfile
+docker-entrypoint.sh

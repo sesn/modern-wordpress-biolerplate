@@ -3,7 +3,6 @@ _os="`uname`"
 _now=$(date +"%m_%d_%Y")
 _parent=$PWD
 _file="backup/data_$_now.sql"
-echo $_file
 docker-compose exec db sh -c 'exec mysqldump "$MYSQL_DATABASE" -uroot -p"$MYSQL_ROOT_PASSWORD"' > $_file
 if [[ $_os == "Darwin"* ]] ; then
   sed -i '.bak' 1,1d $_file
