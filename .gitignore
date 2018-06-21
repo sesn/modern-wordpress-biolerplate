@@ -14,5 +14,4 @@ vendor
 
 
 # In future, it
-Dockerfile
 docker-entrypoint.sh
