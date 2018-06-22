@@ -16,6 +16,9 @@ services:
       - db
     # image: wordpress:4.9.6-php7.0-apache
     image: sesn/wordpress:latest
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
     volumes:
       - ".:/var/www/html/wp-content/themes/presspack"
       - "./wp-content/plugins:/var/www/html/wp-content/plugins"
